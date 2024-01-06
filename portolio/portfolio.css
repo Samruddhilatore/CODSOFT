@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header {
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    background-color: black;
+    color: aliceblue;
+    list-style-type: none;
+}
+
+nav li {
+    background-color: black;
+    color: aliceblue;
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    color: aliceblue;
+    padding: 40px;
+}
