@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightcoral;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: double;
+}
+ 
+.title{
+	color: blueviolet;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: 'Hind', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
