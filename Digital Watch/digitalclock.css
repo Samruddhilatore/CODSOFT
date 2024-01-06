@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: skyblue;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.clock {
+    display: flex;
+}
+
+.time {
+    font-size: 3em;
+    margin: 0 10px;
+}
+
+.timeinfo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+

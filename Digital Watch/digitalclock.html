@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="digitalclock.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>__Digi.Watch__</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>__DIGIWatch__</h1><br>
+        </div>
+    </header>
+
+    <div class="clock"> 
+        <div class="time" id="hours">00:</div>
+        <div class="time" id="minutes">00:</div>
+        <div class="time" id="seconds">00</div>
+
+    </div>
+
+    <div class="timeinfo">
+      <div> Hrs  </div>
+      <div> Mins  </div>
+      <div> Secs </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function updateClock() {
+            const now = new Date();
+        
+            const hours = formatTime(now.getHours());
+            const minutes = formatTime(now.getMinutes());
+            const seconds = formatTime(now.getSeconds());
+        
+            document.getElementById('hours').innerText = hours;
+            document.getElementById('minutes').innerText = minutes;
+            document.getElementById('seconds').innerText = seconds;
+        }
+        
+        function formatTime(time) {
+            return time < 10 ? `0${time}` : time;
+        }
+        
+        setInterval(updateClock, 1000);
+        
+        updateClock();
+        
+        
+    </script>
+
+</body>
+
+</html>
